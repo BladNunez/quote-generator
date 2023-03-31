@@ -17,8 +17,20 @@ body{
         border: 2px solid whitesmoke;
         background-color: black;
         color:whitesmoke;
+        border-radius: 5px;
 }
 
 h3{
         margin-left: 10px;
+}
+
+.quote-container{
+        margin-top: 25px;
+        background-color: white;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 15px;
 }
