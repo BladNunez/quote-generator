@@ -11,3 +11,14 @@ body{
         align-items:center;
         margin-top: 100px;     
 }
+
+.header-container{
+        width: 250px;
+        border: 2px solid whitesmoke;
+        background-color: black;
+        color:whitesmoke;
+}
+
+h3{
+        margin-left: 10px;
+}
