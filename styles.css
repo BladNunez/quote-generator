@@ -36,9 +36,11 @@ h3{
         justify-content: space-around;
         border-radius: 15px;
         padding: 50px 40px;
+        box-shadow: 7px 5px 5px black;
 }
 
 .text-area{
+        margin-left: 7px;
         font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 1.5rem;
 }
@@ -46,6 +48,7 @@ h3{
 .person{
         font-size: 1.6rem;
         color:red;
+        text-transform: uppercase;
 }
 
 #quoteBtn{
