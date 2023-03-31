@@ -1,5 +1,6 @@
 body{
         margin: 0;
+        padding:0;
         background-image: url(images/img.jpg);
         background-attachment: fixed;
         background-size: cover;
@@ -9,7 +10,7 @@ body{
         display: flex;
         flex-direction: column;
         align-items:center;
-        margin-top: 100px;     
+        margin-top: 100px;  
 }
 
 .header-container{
@@ -27,10 +28,30 @@ h3{
 .quote-container{
         margin-top: 25px;
         background-color: white;
-        height: 200px;
+        height: 450px;
+        width:550px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
         border-radius: 15px;
+        padding: 50px 40px;
+}
+
+.text-area{
+        font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1.5rem;
+}
+
+.person{
+        font-size: 1.6rem;
+        color:red;
+}
+
+#quoteBtn{
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        width: 100px;
+        height:30px;
 }
